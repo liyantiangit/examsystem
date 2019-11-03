@@ -1,0 +1,1193 @@
+---------------------------------------------------------------
+[2019-09-04T10:16:15+08:00] ::1 GET localhost/thinkphp5.1/public/admin
+[运行时间：0.065949s] [吞吐率：15.16req/s] [内存消耗：1,594.59kb] [文件加载：71]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:16:26+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user/users.html
+[运行时间：0.124073s] [吞吐率：8.06req/s] [内存消耗：2,718.13kb] [文件加载：85]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\index.html [ array (
+  0 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011243s ] mysql:host=127.0.0.1;dbname=examadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ex_users` [ RunTime:0.056391s ]
+[ sql ] [ SQL ] SELECT * FROM `ex_users` [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[2019-09-04T10:16:29+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.029979s] [吞吐率：33.36req/s] [内存消耗：1,852.17kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:27:29+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.036255s] [吞吐率：27.58req/s] [内存消耗：1,887.23kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:32:04+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.028146s] [吞吐率：35.53req/s] [内存消耗：1,745.65kb] [文件加载：76]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:32:07+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user/users.html
+[运行时间：0.312147s] [吞吐率：3.20req/s] [内存消耗：2,582.46kb] [文件加载：83]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user.users/add.html',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\index.html [ array (
+  0 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.118990s ] mysql:host=47.93.63.8;dbname=examadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ex_users` [ RunTime:0.080340s ]
+[ sql ] [ SQL ] SELECT * FROM `ex_users` [ RunTime:0.079345s ]
+---------------------------------------------------------------
+[2019-09-04T10:32:08+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.024207s] [吞吐率：41.31req/s] [内存消耗：1,745.59kb] [文件加载：76]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:33:12+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.026658s] [吞吐率：37.51req/s] [内存消耗：1,745.65kb] [文件加载：76]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:33:13+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.025215s] [吞吐率：39.66req/s] [内存消耗：1,745.65kb] [文件加载：76]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:33:14+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.024171s] [吞吐率：41.37req/s] [内存消耗：1,745.65kb] [文件加载：76]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:33:14+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.025130s] [吞吐率：39.79req/s] [内存消耗：1,745.65kb] [文件加载：76]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:33:14+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.024989s] [吞吐率：40.02req/s] [内存消耗：1,745.65kb] [文件加载：76]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:33:17+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.025385s] [吞吐率：39.39req/s] [内存消耗：1,746.48kb] [文件加载：76]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:34:20+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.035041s] [吞吐率：28.54req/s] [内存消耗：1,887.23kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:34:40+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.029916s] [吞吐率：33.43req/s] [内存消耗：1,887.23kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:35:00+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.027306s] [吞吐率：36.62req/s] [内存消耗：1,887.23kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:39:17+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.033379s] [吞吐率：29.96req/s] [内存消耗：1,887.23kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:40:26+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.027043s] [吞吐率：36.98req/s] [内存消耗：1,871.23kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:40:48+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.026761s] [吞吐率：37.37req/s] [内存消耗：1,871.23kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:40:55+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.026723s] [吞吐率：37.42req/s] [内存消耗：1,871.23kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:41:07+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.029099s] [吞吐率：34.37req/s] [内存消耗：1,871.23kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:41:11+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.027126s] [吞吐率：36.86req/s] [内存消耗：1,871.23kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:41:15+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.028302s] [吞吐率：35.33req/s] [内存消耗：1,871.23kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:47:20+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.038709s] [吞吐率：25.83req/s] [内存消耗：1,871.23kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:48:16+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.028250s] [吞吐率：35.40req/s] [内存消耗：1,871.23kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:48:46+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.026500s] [吞吐率：37.74req/s] [内存消耗：1,871.23kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:53:56+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.031128s] [吞吐率：32.13req/s] [内存消耗：1,871.23kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:54:06+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html?username=&password=&password2=&nickname=&email=&phone=&gender=female
+[运行时间：0.026972s] [吞吐率：37.08req/s] [内存消耗：1,738.88kb] [文件加载：76]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user.users/add.html',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+  'phone' => '',
+  'gender' => 'female',
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T10:54:34+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html?username=&password=&password2=&nickname=&email=&phone=&gender=female
+[运行时间：0.028593s] [吞吐率：34.97req/s] [内存消耗：1,872.52kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user.users/add.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+  'phone' => '',
+  'gender' => 'female',
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T11:06:23+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html?username=&password=&password2=&nickname=&email=&phone=&gender=M
+[运行时间：0.031950s] [吞吐率：31.30req/s] [内存消耗：1,739.43kb] [文件加载：76]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user.users/add.html?username=&password=&password2=&nickname=&email=&phone=&gender=female',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+  'phone' => '',
+  'gender' => 'M',
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T11:07:15+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html?username=&password=&password2=&nickname=&email=&phone=&gender=M
+[运行时间：0.028908s] [吞吐率：34.59req/s] [内存消耗：1,873.06kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user.users/add.html?username=&password=&password2=&nickname=&email=&phone=&gender=female',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+  'phone' => '',
+  'gender' => 'M',
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T11:07:29+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html?username=&password=&password2=&nickname=&email=&phone=&gender=M
+[运行时间：0.028110s] [吞吐率：35.57req/s] [内存消耗：1,873.06kb] [文件加载：78]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user.users/add.html?username=&password=&password2=&nickname=&email=&phone=&gender=female',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+  'phone' => '',
+  'gender' => 'M',
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T11:07:31+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html?username=&password=&password2=&nickname=&email=&phone=&gender=M
+[运行时间：0.026456s] [吞吐率：37.80req/s] [内存消耗：1,739.43kb] [文件加载：76]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user.users/add.html?username=&password=&password2=&nickname=&email=&phone=&gender=M',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+  'phone' => '',
+  'gender' => 'M',
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T11:07:32+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html?username=&password=&password2=&nickname=&email=&phone=&gender=M
+[运行时间：0.024462s] [吞吐率：40.88req/s] [内存消耗：1,739.43kb] [文件加载：76]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user.users/add.html?username=&password=&password2=&nickname=&email=&phone=&gender=M',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+  'phone' => '',
+  'gender' => 'M',
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T11:07:33+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html?username=&password=&password2=&nickname=&email=&phone=&gender=M
+[运行时间：0.025678s] [吞吐率：38.94req/s] [内存消耗：1,739.43kb] [文件加载：76]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user.users/add.html?username=&password=&password2=&nickname=&email=&phone=&gender=M',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+  'phone' => '',
+  'gender' => 'M',
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T11:07:34+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html?username=&password=&password2=&nickname=&email=&phone=&gender=M
+[运行时间：0.024071s] [吞吐率：41.54req/s] [内存消耗：1,739.43kb] [文件加载：76]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user.users/add.html?username=&password=&password2=&nickname=&email=&phone=&gender=M',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+  'phone' => '',
+  'gender' => 'M',
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T11:18:17+08:00] ::1 GET localhost/thinkphp5.1/public/admin/general/config/email.html
+[运行时间：0.086880s] [吞吐率：11.51req/s] [内存消耗：1,572.89kb] [文件加载：71]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user.users/add.html?username=&password=&password2=&nickname=&email=&phone=&gender=M',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\general\config\email.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T11:18:17+08:00] ::1 GET localhost/thinkphp5.1/public/admin/question/index.html
+[运行时间：0.055512s] [吞吐率：18.01req/s] [内存消耗：1,571.86kb] [文件加载：71]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/general/config/email.html',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\question\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T11:18:20+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user/users.html
+[运行时间：0.337400s] [吞吐率：2.96req/s] [内存消耗：2,582.46kb] [文件加载：83]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/question/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\index.html [ array (
+  0 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129100s ] mysql:host=47.93.63.8;dbname=examadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ex_users` [ RunTime:0.086493s ]
+[ sql ] [ SQL ] SELECT * FROM `ex_users` [ RunTime:0.086905s ]
+---------------------------------------------------------------
+[2019-09-04T11:18:24+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/add.html
+[运行时间：0.027962s] [吞吐率：35.76req/s] [内存消耗：1,737.59kb] [文件加载：76]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\add.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T11:18:42+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user/users.html
+[运行时间：0.321508s] [吞吐率：3.11req/s] [内存消耗：2,582.46kb] [文件加载：83]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user.users/add.html',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\index.html [ array (
+  0 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.123879s ] mysql:host=47.93.63.8;dbname=examadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ex_users` [ RunTime:0.083806s ]
+[ sql ] [ SQL ] SELECT * FROM `ex_users` [ RunTime:0.083069s ]
+---------------------------------------------------------------
+[2019-09-04T11:18:44+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/edit.html
+[运行时间：0.033282s] [吞吐率：30.05req/s] [内存消耗：1,404.70kb] [文件加载：70]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]模板文件不存在:E:\www\thinkphp5.1\application\admin\view\user\users\edit.html[E:\www\thinkphp5.1\thinkphp\library\think\view\driver\Think.php:86]
+---------------------------------------------------------------
+[2019-09-04T11:19:02+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/edit.html
+[运行时间：0.026111s] [吞吐率：38.30req/s] [内存消耗：1,592.71kb] [文件加载：71]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\edit.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-09-04T11:19:08+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user/users.html
+[运行时间：0.335796s] [吞吐率：2.98req/s] [内存消耗：2,582.46kb] [文件加载：83]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user.users/edit.html',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\www\thinkphp5.1\application\admin\view\user\users\index.html [ array (
+  0 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128172s ] mysql:host=47.93.63.8;dbname=examadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ex_users` [ RunTime:0.086800s ]
+[ sql ] [ SQL ] SELECT * FROM `ex_users` [ RunTime:0.085499s ]
+---------------------------------------------------------------
+[2019-09-04T11:19:14+08:00] ::1 GET localhost/thinkphp5.1/public/admin/user.users/del.html
+[运行时间：0.049383s] [吞吐率：20.25req/s] [内存消耗：1,407.13kb] [文件加载：70]
+[ info ] [ LANG ] E:\www\thinkphp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6541809664; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1562573171,1562593918; _ga=GA1.1.940187228.1563443493; admin_username=admin; Hm_lvt_b6e7d11991c8d9c5fc1538757aee5c98=1563440311,1564122821; Hm_lvt_7939d4262ca7fdc78dfecfe3a828ea00=1565183993,1565776046; PHPSESSID=hk16t9hdn3emoqeiobos8ms260; Hm_lvt_6f035c9498b2352e12886fcdbf2a25bb=1566196053,1566884926,1567072660,1567389022; Hm_lpvt_6f035c9498b2352e12886fcdbf2a25bb=1567417714; weiphp4_homeScanLoginKey=5d6dfe87eac06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/thinkphp5.1/public/admin/user/users.html',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Call to undefined function app\admin\controller\user\I()[E:\www\thinkphp5.1\application\admin\controller\user\Users.php:45]

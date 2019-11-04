@@ -1,16 +1,21 @@
 <?php
 // +----------------------------------------------------------------------
-// | WeiPHP [ 公众号和小程序运营管理系统 ]
+// | ExamSystem [ 培训考试管理系统 ]
 // +----------------------------------------------------------------------
-// | Copyright (c) 2017 http://www.weiphp.cn All rights reserved.
+// | Copyright (c) 2019 http://www.gzhujia.com All rights reserved.
 // +----------------------------------------------------------------------
-// | Author: 凡星 <weiphp@weiphp.cn> <QQ:203163051>
+// | Author: LY-田 <guangzhouhujia@163.com> <QQ:1397646663>
+// +----------------------------------------------------------------------
+
+
+// +----------------------------------------------------------------------
+// | 安装向导
 // +----------------------------------------------------------------------
 namespace app\install\controller;
 
-use app\common\controller\Base;
+use app\common\controller\WebBase;
 
-class Index extends Base
+class Index extends WebBase
 {
     // 安装首页
     public function index()

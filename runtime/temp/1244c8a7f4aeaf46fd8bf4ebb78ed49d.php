@@ -1,14 +1,56 @@
-{extend name="index/base"/}
+<?php /*a:2:{s:60:"E:\www\thinkphp5.1\application\install\view\index\index.html";i:1572834163;s:59:"E:\www\thinkphp5.1\application\install\view\index\base.html";i:1572834723;}*/ ?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ExamSystem 安装</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-{block name="header"}
+        <!-- Le styles -->
+        <link href="/assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="/assets/plugins/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="/assets/install/css/install.css" rel="stylesheet">
+
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="assets/js/html5shiv.js"></script>
+        <![endif]-->
+        <script src="/assets/plugins/jquery-1.10.2.min.js"></script>
+        <script src="/assets/plugins/bootstrap/js/bootstrap.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target=".bs-docs-sidebar">
+        <!-- Navbar
+        ================================================== -->
+        <div class="navbar navbar-inverse">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="nav-collapse collapse">
+                    	<p class="install_logo"><span><img width="50px;" src="/assets/install/images/install.png"/></span></p>
+                    	<ul id="step" class="nav">
+                    		
     <li class="active"><a href="javascript:;"><span>1</span>安装协议</a></li>
     <li><a href="javascript:;"><span>2</span>环境检测</a></li>
     <li><a href="javascript:;"><span>3</span>创建数据库</a></li>
-    <li><a href="javascript:;"><span>4</span>{eq name="Think.session.update" value="1"}升级{else/}安装{/eq}</a></li>
+    <li><a href="javascript:;"><span>4</span><?php if(app('session')->get('update') == '1'): ?>升级<?php else: ?>安装<?php endif; ?></a></li>
     <li><a href="javascript:;"><span>5</span>完成</a></li>
-{/block}
 
-{block name="body"}
+                    	</ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron masthead">
+            <div class="container">
+                
 	<div class="notice">
     <h1>ExamSystem1.0开源授权许可协议</h1>
 
@@ -33,10 +75,23 @@
     <div yne-bulb-block="paragraph">电子文本形式的授权协议如同双方书面签署的协议一样，具有完全的和等同的法律效力。您一旦开始安装 ExamSystem，即被视为完全理解并接受本协议的各项条款，在享有上述条款授予的权力的同时，受到相关的约束和限制。协议许可范围以外的行为，将直接违反本授权协议并构成侵权，我们有权随时终止授权，责令停止损害，并保留追究相关责任的权力。</div>
 
 </div>
-{/block}
 
-{block name="footer"}
-    <a class="btn btn-primary btn-large" href="{:url('install/step1')}">同意安装协议</a>
+            </div>
+        </div>
+
+
+        <!-- Footer
+        ================================================== -->
+        <footer class="footer">
+            <div class="container">
+                <div>
+                	
+    <a class="btn btn-primary btn-large" href="<?php echo url('install/step1'); ?>">同意安装协议</a>
     &nbsp;&nbsp;&nbsp;
     <a class="btn btn-large" href="https://www.gzhujia.com">不同意</a>
-{/block}
+
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

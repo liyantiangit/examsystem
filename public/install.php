@@ -12,6 +12,7 @@
 // [ 应用入口文件 ]
 namespace think;
 
+
 if (is_file(__DIR__.'/uploads/install.lock')) {
     //header('Location: index.php');
     //exit ();

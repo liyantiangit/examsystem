@@ -11,16 +11,16 @@ return [
     // 数据库类型
     'type' => 'mysql',
     // 服务器地址
-    'hostname' => 'localhost',
+    'hostname' => '[hostname]',
     // 数据库名
-    'database' => 'examadmin123',
+    'database' => '[database]',
     // 用户名
-    'username' => 'root',
+    'username' => '[username]',
     // 密码
-    'password' => 'root',
+    'password' => '[password]',
     
     // 端口
-    'hostport' => '3306',
+    'hostport' => '[hostport]',
     // 数据库连接参数
     'params' => [],
     // 数据库编码默认采用utf8
@@ -36,5 +36,5 @@ return [
     'resultset_type' => 'array',
     
     // 用户密码加密的KEY
-    'data_auth_key' => 'OB}EX+a!A5tnL,ve`MucZ^1zqbs/6)Q:Gp.?<"$%'
+    'data_auth_key' => '[auth]'
 ];

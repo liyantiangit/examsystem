@@ -15,7 +15,7 @@
 
 return [
     // 应用名称
-    'app_name'               => 'ExamAdmin',
+    'app_name'               => '',
     // 应用地址
     'app_host'               => '',
     // 应用调试模式
@@ -72,7 +72,7 @@ return [
     // 操作方法后缀
     'action_suffix'          => '',
     // 自动搜索控制器
-    'controller_auto_search' => true,
+    'controller_auto_search' => false,
 
     // +----------------------------------------------------------------------
     // | URL设置

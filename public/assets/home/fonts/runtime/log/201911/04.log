@@ -1,0 +1,36 @@
+---------------------------------------------------------------
+
+[2019-11-04T10:29:02+08:00] 127.0.0.1 GET localhost:8000/assets/home/fonts/feather/feather-webfont.woff?t=1501841394106
+[ error ] [2]scandir(E:\www\thinkphp5.1\public\assets\home\fonts\route\,E:\www\thinkphp5.1\public\assets\home\fonts\route\): ϵͳ�Ҳ���ָ�����ļ��� (code: 2)
+---------------------------------------------------------------
+
+[2019-11-04T10:29:03+08:00] 127.0.0.1 GET localhost:8000/assets/home/fonts/feather/feather-webfont.ttf?t=1501841394106
+[ error ] [2]scandir(E:\www\thinkphp5.1\public\assets\home\fonts\route\,E:\www\thinkphp5.1\public\assets\home\fonts\route\): ϵͳ�Ҳ���ָ�����ļ��� (code: 2)
+---------------------------------------------------------------
+
+[2019-11-04T10:29:17+08:00] 127.0.0.1 GET localhost:8000/assets/home/fonts/feather/feather-webfont.woff?t=1501841394106
+[ error ] [2]scandir(E:\www\thinkphp5.1\public\assets\home\fonts\route\,E:\www\thinkphp5.1\public\assets\home\fonts\route\): ϵͳ�Ҳ���ָ�����ļ��� (code: 2)
+---------------------------------------------------------------
+
+[2019-11-04T10:29:17+08:00] 127.0.0.1 GET localhost:8000/assets/home/fonts/feather/feather-webfont.ttf?t=1501841394106
+[ error ] [2]scandir(E:\www\thinkphp5.1\public\assets\home\fonts\route\,E:\www\thinkphp5.1\public\assets\home\fonts\route\): ϵͳ�Ҳ���ָ�����ļ��� (code: 2)
+---------------------------------------------------------------
+
+[2019-11-04T11:32:25+08:00] 127.0.0.1 GET localhost:8000/assets/home/fonts/feather/feather-webfont.woff?t=1501841394106
+[ error ] [2]scandir(E:\www\thinkphp5.1\public\assets\home\fonts\route\,E:\www\thinkphp5.1\public\assets\home\fonts\route\): ϵͳ�Ҳ���ָ�����ļ��� (code: 2)
+---------------------------------------------------------------
+
+[2019-11-04T11:32:25+08:00] 127.0.0.1 GET localhost:8000/assets/home/fonts/feather/feather-webfont.ttf?t=1501841394106
+[ error ] [2]scandir(E:\www\thinkphp5.1\public\assets\home\fonts\route\,E:\www\thinkphp5.1\public\assets\home\fonts\route\): ϵͳ�Ҳ���ָ�����ļ��� (code: 2)
+---------------------------------------------------------------
+
+[2019-11-04T11:34:55+08:00] 127.0.0.1 GET localhost:8000/assets/home/fonts/feather/feather-webfont.woff?t=1501841394106
+[ error ] [2]scandir(E:\www\thinkphp5.1\public\assets\home\fonts\route\,E:\www\thinkphp5.1\public\assets\home\fonts\route\): ϵͳ�Ҳ���ָ�����ļ��� (code: 2)
+---------------------------------------------------------------
+
+[2019-11-04T11:34:55+08:00] 127.0.0.1 GET localhost:8000/assets/home/fonts/feather/feather-webfont.ttf?t=1501841394106
+[ error ] [2]scandir(E:\www\thinkphp5.1\public\assets\home\fonts\route\,E:\www\thinkphp5.1\public\assets\home\fonts\route\): ϵͳ�Ҳ���ָ�����ļ��� (code: 2)
+---------------------------------------------------------------
+
+[2019-11-04T11:35:26+08:00] 127.0.0.1 GET localhost:8000/assets/home/fonts/feather/feather-webfont.woff?t=1501841394106
+[ error ] [2]scandir(E:\www\thinkphp5.1\public\assets\home\fonts\route\,E:\www\thinkphp5.1\public\assets\home\fonts\route\): ϵͳ�Ҳ���ָ�����ļ��� (code: 2)

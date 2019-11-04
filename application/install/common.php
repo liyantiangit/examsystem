@@ -1,10 +1,15 @@
 <?php
 // +----------------------------------------------------------------------
-// | WeiPHP [ 公众号和小程序运营管理系统 ]
+// | ExamSystem [ 培训考试管理系统 ]
 // +----------------------------------------------------------------------
-// | Copyright (c) 2017 http://www.weiphp.cn All rights reserved.
+// | Copyright (c) 2019 http://www.gzhujia.com All rights reserved.
 // +----------------------------------------------------------------------
-// | Author: 凡星 <weiphp@weiphp.cn> <QQ:203163051>
+// | Author: LY-田 <guangzhouhujia@163.com> <QQ:1397646663>
+// +----------------------------------------------------------------------
+
+
+// +----------------------------------------------------------------------
+// | 安装设置
 // +----------------------------------------------------------------------
 
 // 检测环境是否支持可写
@@ -278,19 +283,15 @@ function create_tables($db, $prefix = '')
     $dsn = "$dbms:host=$host;port=$dbport;dbname=$dbName";
     $new_db = new \PDO($dsn, $dbconfig['username'], $dbconfig['password']);
 
-    $new_db->exec('DROP TRIGGER IF EXISTS `add`');
-    $new_db->exec("CREATE TRIGGER `add` BEFORE INSERT ON `wp_shop_goods_stock` FOR EACH ROW set new.stock_active = new.stock - new.lock_count");
-    $new_db->exec('DROP TRIGGER IF EXISTS `save`');
-    $new_db->exec("CREATE TRIGGER `save` BEFORE UPDATE ON `wp_shop_goods_stock` FOR EACH ROW set new.stock_active = new.stock - new.lock_count");
 }
 
 function register_administrator($db, $prefix, $admin, $auth)
 {
     show_msg('开始注册创始人帐号...');
 
-    $sql = "INSERT INTO `[PREFIX]user` (`uid`, `nickname`, `login_name`, `password`, `reg_time`, `reg_ip`, `last_login_time`, `last_login_ip`, `status`,`is_init`,`is_audit`) VALUES " . "('1', '[NAME]', '[NAME]', '[PASS]', '[TIME]', '[IP]', 0, 0, 1,1,1)";
+    $sql = "INSERT INTO `[PREFIX]users` (`nickname`, `username`, `password`, `creat_time`, `ip`, `logintime`, `status`,`type`) VALUES " . "('[NAME]', '[NAME]', '[PASS]', '[TIME]', '[IP]', 0, 1,1)";
 
-    $password = think_weiphp_md5($admin['password'], $auth);
+    $password = think_exam_md5($admin['password'], $auth);
     $sql = str_replace(array(
         '[PREFIX]',
         '[NAME]',

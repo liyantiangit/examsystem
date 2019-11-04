@@ -9,6 +9,8 @@
 namespace app\common\controller;
 
 use think\Controller;
+use think\Validate;
+use think\facade\Log;
 
 /**
  * 手机H5版的控制器基类，实现手机端的初始化，权限控制和一些通用方法

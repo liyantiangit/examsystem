@@ -15,7 +15,7 @@
         defined('SAE_MYSQL_HOST_M') or define('SAE_MYSQL_PORT', '3306');
     ?>
     <h1>创建数据库</h1>
-    <form action="__SELF__" method="post" target="_self">
+    <form action="" method="post" target="_self">
         <div class="create-database">
             <div>
                 <input type="text" name="db[]" value="{$config.hostname}">
@@ -42,15 +42,15 @@
         <div class="create-database">
             <h2>创始人帐号信息</h2>
             <div>
-                <input type="text" name="admin[]" value="admin">
+                <input type="text" name="admin[]" value="admin" required="required">
                 <span>用户名</span>
             </div>
             <div>
-                <input type="password" name="admin[]" value="">
+                <input type="password" name="admin[]" value="" required="required">
                 <span>密码</span>
             </div>
             <div>
-                <input type="password" name="admin[]" value="">
+                <input type="password" name="admin[]" value="" required="required">
                 <span>确认密码</span>
             </div>
         </div>

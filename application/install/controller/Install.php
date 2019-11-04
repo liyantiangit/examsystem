@@ -1,16 +1,21 @@
 <?php
 // +----------------------------------------------------------------------
-// | WeiPHP [ 公众号和小程序运营管理系统 ]
+// | ExamSystem [ 培训考试管理系统 ]
 // +----------------------------------------------------------------------
-// | Copyright (c) 2017 http://www.weiphp.cn All rights reserved.
+// | Copyright (c) 2019 http://www.gzhujia.com All rights reserved.
 // +----------------------------------------------------------------------
-// | Author: 凡星 <weiphp@weiphp.cn> <QQ:203163051>
+// | Author: LY-田 <guangzhouhujia@163.com> <QQ:1397646663>
+// +----------------------------------------------------------------------
+
+
+// +----------------------------------------------------------------------
+// | 程序安装
 // +----------------------------------------------------------------------
 namespace app\install\controller;
 
-use app\common\controller\Base;
+use app\common\controller\WebBase;
 
-class Install extends Base
+class Install extends WebBase
 {
 
     public function initialize()
@@ -22,6 +27,7 @@ class Install extends Base
         }
     }
     function index(){
+        
         return $this->fetch();
     }
     // 安装第一步，检测运行所需的环境设置
@@ -76,7 +82,7 @@ class Install extends Base
                 );
                 // 缓存数据库配置
                 $DB['type'] = 'mysql';
-                $DB['prefix'] = 'wp_';
+                $DB['prefix'] = 'ex_';
                 session('db_config', $DB);
 
                 // 创建数据库
@@ -122,7 +128,7 @@ class Install extends Base
         }
 
         $content = $this->fetch();
-        echo $content;
+        //echo $content;
         flush();
         ob_flush();
 
@@ -159,7 +165,7 @@ class Install extends Base
             show_msg(session('error'));
         } else {
             session('step', 3);
-            $url = U('install/Index/complete');
+            $url = url('install/Index/complete');
             echo "<script type=\"text/javascript\">window.location.href='{$url}'</script>";
         }
     }

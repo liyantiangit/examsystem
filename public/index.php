@@ -17,8 +17,8 @@ if (version_compare ( PHP_VERSION, '5.6.0', '<' ))
 
     
 if (!is_file(__DIR__.'/uploads/install.lock')) {
-    header('Location: ./install.php');
-    exit ();
+//     header('Location: ./install.php');
+//     exit ();
 }
 // 加载基础文件
 require __DIR__ . '/../thinkphp/base.php';

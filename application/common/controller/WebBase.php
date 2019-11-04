@@ -70,6 +70,8 @@ class WebBase extends Controller
         if (!is_dir(SITE_PATH . '/public/assets/' . $public_dir)) {
             $public_dir = 'home';
         }
+        
+
 
         
         parent::__construct();
